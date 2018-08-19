@@ -1,0 +1,139 @@
+/************** START ABOUT US PAGE ***************/
+
+/*font-family: 'Roboto Slab', serif;*/
+
+
+.breadcrumb a {
+    font-size: 18px;
+}
+
+/************** START UPPER ********/
+.upper{
+    margin-top: 30px;
+}
+.upper h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.upper p {
+    color: #111;
+    padding-bottom: 20px;
+    font-size: 24px;
+    
+}
+
+
+.upper .team-image{
+    
+    background-image: url(../images/about-1.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+
+/************** MIDDLE UPPER ********/
+
+.middle{
+    
+    margin: 80px 0 ;
+}
+
+.middle .col-md-4{
+    margin-bottom: 30px;
+}
+.middle i {
+    color: #222;
+}
+
+.middle h3{
+    font-family: 'Roboto Slab', serif;
+    color: #222;
+    font-weight: bold;
+}
+.middle p {
+    color: #232323;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+/*********8 start last section **********/
+
+.last .col-md-7{
+    margin-top: 30px;
+}
+.last h2{
+    font-family: 'Roboto Slab', serif;
+    color: #222;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.last p{
+    color: #333;
+    font-size: 23px;
+    line-height: 1.7
+}
+
+.last button{
+        padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*********************** START FAQ ****************/
+.top{
+    margin-bottom: 20px;
+}
+.top h1{
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif; 
+    margin-bottom: 20px;
+    color: #232323;
+    letter-spacing: -3px;
+}
+
+.top p {
+    color: #343434;
+    font-size: 24px;
+    
+}
+
+
+/*************** START ACORDION PANELS ************/
+
+#accordion h4{
+    color: #232323;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif; 
+    font-size: 20px;
+    padding: 15px;
+    
+}
+
+#accordion .panel-heading a:after{
+    
+    content: "\e114";
+    float: right;
+        font-family: 'Glyphicons Halflings';
+}
+
+#accordion .panel-heading a.collapsed:after{
+     content: "\e080";
+    float: right;
+    font-family: 'Glyphicons Halflings';
+}
+#accordion .panel-body{
+    font-family: 'Roboto Slab', serif;
+    color: #456567;
+    font-size: 17px;
+    line-height: 1.6;
+}
